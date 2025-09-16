@@ -1,187 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Boolando</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    </head>
-    <body>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boolando</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
 
-        <!-- header -->
+  <!-- header -->
+  <header>
+    <div class="top-bar">
+      <nav class="categories">
+        <ul>
+          <li><a href="#">Donna</a></li>
+          <li><a href="#">Uomo</a></li>
+          <li><a href="#">Bambini</a></li>
+        </ul>
+      </nav>
+      <div class="logo">
+        <img src="img/boolean-logo.png" alt="Boolando Logo">
+      </div>
+      <div class="icons">
+        <a href="#"><i class="fa-regular fa-user"></i></a>
+        <a href="#"><i class="fa-regular fa-heart"></i></a>
+        <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+      </div>
+    </div>
+  </header>
+  <!-- /header -->
 
-        <header>
-            <div class="top-bar">
-                <nav class="categories">
-                    <ul>
-                        <li><a href>Donna</a></li>
-                        <li><a href>Uomo</a></li>
-                        <li><a href>Bambini</a></li>
-                    </ul>
-                </nav>
-                <div class="logo">
-                    <img src="img/boolean-logo.png" alt="Boolando Logo">
-                </div>
-                <div class="icons">
-                    <a href><i class="fa-regular fa-user"></i></a>
-                    <a href><i class="fa-regular fa-heart"></i></a>
-                    <a href><i class="fa-solid fa-bag-shopping"></i></a>
-                </div>
-            </div>
-        </header>
+  <!-- main -->
+  <main>
+    <section class="products">
 
-        <!-- /header -->
+      <!-- Product 1 -->
+      <div class="product">
+        <div class="image-container">
+          <img src="img/1.webp" alt="Levi's Relaxed Fit Tee" class="img-default">
+          <img src="img/1b.webp" alt="Levi's Relaxed Fit Tee Hover" class="img-hover">
+          <div class="badge-container">
+            <span class="badge discount">-50%</span>
+            <span class="badge eco">Sostenibilità</span>
+          </div>
+          <button class="fav-btn"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="info">
+          <h4>Levi's</h4>
+          <p>RELAXED FIT TEE UNISEX</p>
+          <p class="price"><span class="new">14,99 €</span> <span class="old">29,99 €</span></p>
+        </div>
+      </div>
+      <!-- /product 1 -->
 
-        <!-- main -->
-        <main>
-            <section class="products">
-                <!-- Product 1 -->
-                <div class="product">
-                    <div class="image-container">
-                        <img src="img/1.webp" alt="Levi's Relaxed Fit Tee"
-                            class="img-default">
-                        <img src="img/1b.webp"
-                            alt="Levi's Relaxed Fit Tee Hover"
-                            class="img-hover">
-                        <span class="badge discount">-50%</span>
-                        <span class="badge eco">Sostenibilità</span>
-                        <button class="fav-btn"><i
-                                class="fa-regular fa-heart"></i></button>
-                    </div>
-                    <div class="info">
-                        <h4>Levi's</h4>
-                        <p>RELAXED FIT TEE UNISEX</p>
-                        <p class="price"><span class="new">14,99 €</span> <span
-                                class="old">29,99 €</span></p>
-                    </div>
-                </div>
-                <!-- /product 1 -->
+      <!-- product2 -->
+      <div class="product">
+        <div class="image-container">
+          <img src="img/2.webp" alt="Guess Roses Tee" class="img-default">
+          <img src="img/2b.webp" alt="Guess Roses Tee Hover" class="img-hover">
+          <div class="badge-container">
+            <span class="badge discount">-30%</span>
+          </div>
+          <button class="fav-btn"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="info">
+          <h4>Guess</h4>
+          <p>ROSES TEE</p>
+          <p class="price"><span class="new">20,99 €</span> <span class="old">29,99 €</span></p>
+        </div>
+      </div>
+      <!-- /product 2 -->
 
-                <!-- product2 -->
-                <div class="product">
-                    <div class="image-container">
-                        <img src="img/2.webp" alt="Guess Roses Tee"
-                            class="img-default">
-                        <img src="img/2b.webp" alt="Guess Roses Tee Hover"
-                            class="img-hover">
-                        <span class="badge discount">-30%</span>
-                        <button class="fav-btn"><i
-                                class="fa-regular fa-heart"></i></button>
-                    </div>
-                    <div class="info">
-                        <h4>Guess</h4>
-                        <p>ROSES TEE</p>
-                        <p class="price"><span class="new">20,99 €</span> <span
-                                class="old">29,99 €</span></p>
-                    </div>
-                </div>
-                <!-- /product 2 -->
+      <!-- product 3 -->
+      <div class="product">
+        <div class="image-container">
+          <img src="img/3.webp" alt="Come Zucchero Filato" class="img-default">
+          <img src="img/3b.webp" alt="Come Zucchero Filato Hover" class="img-hover">
+          <div class="badge-container">
+            <span class="badge discount">-30%</span>
+          </div>
+          <button class="fav-btn"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="info">
+          <h4>Come Zucchero Filato</h4>
+          <p>VOGLIA DI COLORI PASTELLO</p>
+          <p class="price"><span class="new">129,99 €</span> <span class="old">184,99 €</span></p>
+        </div>
+      </div>
+      <!-- /product 3 -->
 
-                <!-- product 3 -->
-                <div class="product">
-                    <div class="image-container">
-                        <img src="img/3.webp" alt="Come Zucchero Filato"
-                            class="img-default">
-                        <img src="img/3b.webp" alt="Come Zucchero Filato Hover"
-                            class="img-hover">
-                        <span class="badge discount">-30%</span>
-                        <button class="fav-btn"><i
-                                class="fa-regular fa-heart"></i></button>
-                    </div>
-                    <div class="info">
-                        <h4>Come Zucchero Filato</h4>
-                        <p>VOGLIA DI COLORI PASTELLO</p>
-                        <p class="price"><span class="new">129,99 €</span> <span
-                                class="old">184,99 €</span></p>
-                    </div>
-                </div>
-                <!-- /product 3 -->
+      <!-- product 4 -->
+      <div class="product">
+        <div class="image-container">
+          <img src="img/4.webp" alt="Levi's Tee Unisex" class="img-default">
+          <img src="img/4b.webp" alt="Levi's Tee Unisex Hover" class="img-hover">
+          <div class="badge-container">
+            <span class="badge discount">-50%</span>
+            <span class="badge eco">Sostenibilità</span>
+          </div>
+          <button class="fav-btn"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="info">
+          <h4>Levi's</h4>
+          <p>TEE UNISEX</p>
+          <p class="price"><span class="new">14,99 €</span> <span class="old">29,99 €</span></p>
+        </div>
+      </div>
+      <!-- /product 4 -->
 
-                <!-- product 4 -->
-                <div class="product">
-                    <div class="image-container">
-                        <img src="img/4.webp" alt="Levi's Tee Unisex"
-                            class="img-default">
-                        <img src="img/4b.webp" alt="Levi's Tee Unisex Hover"
-                            class="img-hover">
-                        <span class="badge discount">-50%</span>
-                        <span class="badge eco">Sostenibilità</span>
-                        <button class="fav-btn"><i
-                                class="fa-regular fa-heart"></i></button>
-                    </div>
-                    <div class="info">
-                        <h4>Levi's</h4>
-                        <p>TEE UNISEX</p>
-                        <p class="price"><span class="new">14,99 €</span> <span
-                                class="old">29,99 €</span></p>
-                    </div>
-                </div>
-                <!-- /product 4 -->
+      <!-- product 5 -->
+      <div class="product">
+        <div class="image-container">
+          <img src="img/5.webp" alt="Maya Deluxe Stripe Bodice" class="img-default">
+          <img src="img/5b.webp" alt="Maya Deluxe Stripe Bodice Hover" class="img-hover">
+          <div class="badge-container">
+            <!-- nessun badge -->
+          </div>
+          <button class="fav-btn"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="info">
+          <h4>Maya Deluxe</h4>
+          <p>STRIPE BODICE</p>
+          <p class="price"><span class="new">99,99 €</span></p>
+        </div>
+      </div>
+      <!-- /product 5 -->
 
-                <!-- product 5 -->
-                <div class="product">
-                    <div class="image-container">
-                        <img src="img/5.webp" alt="Maya Deluxe Stripe Bodice"
-                            class="img-default">
-                        <img src="img/5b.webp"
-                            alt="Maya Deluxe Stripe Bodice Hover"
-                            class="img-hover">
-                        <button class="fav-btn"><i
-                                class="fa-regular fa-heart"></i></button>
-                    </div>
-                    <div class="info">
-                        <h4>Maya Deluxe</h4>
-                        <p>STRIPE BODICE</p>
-                        <p class="price"><span class="new">99,99 €</span></p>
-                    </div>
-                </div>
-                <!-- /product 5 -->
+      <!-- /product 6 -->
+      <div class="product">
+        <div class="image-container">
+          <img src="img/6.webp" alt="Esprit Maglione Black" class="img-default">
+          <img src="img/6b.webp" alt="Esprit Maglione Black Hover" class="img-hover">
+          <div class="badge-container">
+            <span class="badge eco">Sostenibilità</span>
+          </div>
+          <button class="fav-btn"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <div class="info">
+          <h4>Esprit</h4>
+          <p>MAGLIONE - BLACK</p>
+          <p class="price"><span class="new">29,99 €</span></p>
+        </div>
+      </div>
+      <!-- /product 6 -->
 
-                <!-- /product 6 -->
-                <div class="product">
-                    <div class="image-container">
-                        <img src="img/6.webp" alt="Esprit Maglione Black"
-                            class="img-default">
-                        <img src="img/6b.webp" alt="Esprit Maglione Black Hover"
-                            class="img-hover">
-                        <span class="badge eco">Sostenibilità</span>
-                        <button class="fav-btn"><i
-                                class="fa-regular fa-heart"></i></button>
-                    </div>
-                    <div class="info">
-                        <h4>Esprit</h4>
-                        <p>MAGLIONE - BLACK</p>
-                        <p class="price"><span class="new">29,99 €</span></p>
-                    </div>
-                </div>
-                <!-- /product 6 -->
-            </section>
-        </main>
+    </section>
+  </main>
+  <!-- /main -->
 
-        <!-- /main -->
+  <!-- footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-left">
+        <p class="company">Boolando s.r.l</p>
+        <p class="legal">Informazioni legali | Informazioni sulla privacy | Diritto di recesso</p>
+      </div>
+      <div class="footer-right">
+        <p class="find-us">Trovaci anche sui</p>
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- /footer -->
 
-        <!-- footer -->
-        <footer>
-            <div class="footer-container">
-                <div class="footer-left">
-                    <p class="company">Boolando s.r.l</p>
-                    <p class="legal">Informazioni legali | Informazioni sulla
-                        privacy | Diritto di recesso</p>
-                </div>
-                <div class="footer-right">
-                    <p class="find-us">Trovaci anche sui</p>
-                    <div class="socials">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- /footer -->
-
-    </body>
+</body>
 </html>
