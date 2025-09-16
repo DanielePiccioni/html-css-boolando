@@ -1,5 +1,61 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    color: black;
+}
+
+/* header */
+
+header {
+    background: #ff6900;
+    padding: 10px 20px;
+}
+
+.top-bar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    align-items: center;
+}
+
+.categories ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.categories a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.icons {
+    justify-self: end;
+}
+
+.icons a {
+    margin-left: 15px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* /header */
